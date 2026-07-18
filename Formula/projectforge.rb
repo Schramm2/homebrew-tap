@@ -1,12 +1,12 @@
-class Ubundiforge < Formula
+class Projectforge < Formula
   include Language::Python::Virtualenv
 
-  desc "Scaffold Ubundi-style projects with AI coding tools and shared conventions"
-  homepage "https://github.com/matthewubundi/UbundiForge"
-  url "https://github.com/matthewubundi/UbundiForge/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "26eb6d6d6f3caa68fabf59f0dc5c2766b5371bce74438ddc6a4beed7ab1ec88b"
+  desc "Scaffold projects with AI coding tools and shared conventions"
+  homepage "https://github.com/Schramm2/projectforge"
+  url "https://github.com/Schramm2/projectforge/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "6fb78e853864e028e7c929f6e2138424b7d8bb4632b72258ca0355b31e237cd4"
   license "MIT"
-  head "https://github.com/matthewubundi/UbundiForge.git", branch: "main"
+  head "https://github.com/Schramm2/projectforge.git", branch: "main"
 
   depends_on "python@3.13"
 
@@ -63,8 +63,8 @@ class Ubundiforge < Formula
   end
 
   resource "typer" do
-    url "https://files.pythonhosted.org/packages/f5/24/cb09efec5cc954f7f9b930bf8279447d24618bb6758d4f6adf2574c41780/typer-0.24.1.tar.gz"
-    sha256 "e39b4732d65fbdcde189ae76cf7cd48aeae72919dea1fdfc16593be016256b45"
+    url "https://files.pythonhosted.org/packages/f5/24/cb09efec5cc9547f9b930bf8279447d24618bb6758d4f6adf2574c41780/typer-0.24.1.tar.gz"
+    sha256 "e39b4732d65fbdcde189ae76cf7cd48ae72919dea1fdfc16593be016256b45"
   end
 
   resource "wcwidth" do
